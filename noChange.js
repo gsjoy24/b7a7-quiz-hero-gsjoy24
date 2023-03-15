@@ -6,6 +6,7 @@ const quizTimer = (dismiss) => {
     clearInterval(timer);
     return;
   }
+  
   timer = setInterval(() => {
     let countHtml = document.querySelector("#count");
     let covtMin = Math.floor(count / 60);
